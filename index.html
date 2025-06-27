@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> عارض المحادثات الكوني </title>
+
+    <!-- Libs: Marked & DOMPurify -->
+    <script src="assets/js/marked.min.js"></script>
+    <script src="assets/js/purify.min.js"></script>
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="icon" type="image/png" href="assets/img/icon.png">
+</head>
+<body>
+    <!-- Sidebar -->
+    <aside id="sidebar">
+         <div class="sidebar-header">
+             <div class="sidebar-header-top">
+                 <h2><span>🌌</span>المحادثات</h2>
+                 <button id="darkModeToggle" title="تبديل الوضع"></button>
+             </div>
+             <label for="fileInput" class="file-input-label">
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" width="20" height="20"><path d="M19.35 10.04C18.67 6.59 15.64 4 12 4 9.11 4 6.6 5.64 5.35 8.04 2.34 8.36 0 10.91 0 14c0 3.31 2.69 6 6 6h13c2.76 0 5-2.24 5-5 0-2.64-2.05-4.78-4.65-4.96zM14 13v4h-4v-4H7l5-5 5 5h-3z"/></svg>
+                 <span>استيراد ملف JSON</span>
+             </label>
+             <input type="file" id="fileInput" accept=".json">
+             <div id="statusMessage"></div>
+         </div>
+         <div id="conversation-list-container">
+             <ul id="conversation-list"></ul>
+         </div>
+    </aside>
+
+    <!-- Main Content Area -->
+    <main id="main-content">
+        <div id="conversation-display-header">
+              <button id="sidebarToggle" title="عرض/إخفاء القائمة"></button>
+              <h3 id="conversation-title-display">---</h3>
+          </div>
+          <div id="conversation-display-messages">
+              <p id="initial-message">ارفع ملفاً من الذكريات الرقمية لاستكشاف محتواه الكوني 🌌</p>
+         </div>
+    </main>
+    <script src="assets/js/app.js"></script>
+</body>
+</html>
