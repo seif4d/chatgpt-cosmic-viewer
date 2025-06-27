@@ -14,7 +14,7 @@ Transform your static conversation log files into a dynamic and visual experienc
 <!--  Add a link to the live demo and a project screenshot/GIF here -->
 <!-- Example: -->
 <!-- ![Demo GIF](https://user-images.githubusercontent.com/username/repo/demo.gif) -->
-<!-- **[🚀 Try it Live!](https://your-username.github.io/chatgpt-cosmic-viewer/)** -->
+**[🚀 Try it Live!](https://seif4d.github.io/chatgpt-cosmic-viewer/)** 
 
 ## 🤔 Why Choose This Viewer?
 
@@ -187,7 +187,7 @@ This project is licensed under the MIT License.
 <!--  ضع هنا رابط العرض الحي وصورة متحركة للمشروع -->
 <!-- مثال: -->
 <!-- ![Demo GIF](https://user-images.githubusercontent.com/username/repo/demo.gif) -->
-<!-- **[🚀 جرب الواجهة الآن!](https://your-username.github.io/chatgpt-cosmic-viewer/)** -->
+<!-- **[🚀 جرب الواجهة الآن!](https://seif4d.github.io/chatgpt-cosmic-viewer/)** -->
 
 ## 🤔 لماذا هذا العارض هو خيارك الأفضل؟
 
